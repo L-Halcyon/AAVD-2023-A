@@ -194,6 +194,30 @@ namespace Proyecto_de_AADV
             }
         }
 
+        public static void InsertarUsuario(string nombre, string apellidoPat, string apellidoMat, string correo, string contrasena, string noNomina, string domicilio, string noTelefono, string rol)
+        {
+            try
+            {
+                conectar();
+
+                string query = "INSERT INTO usuarios (nombre, apellidoPat, apellidoMat, correo, contrasena, noNomina, domicilio, noTelefono, rol) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', {5}, '{6}', {7}, '{8}')";
+                var qry = string.Format(query, nombre, apellidoPat, apellidoMat, correo, contrasena, noNomina, domicilio, noTelefono, rol);
+
+                _session.Execute(qry);
+
+                MessageBox.Show("Se registró el usuario");
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                // desconectar o cerrar la conexión
+                desconectar();
+            }           
+        }
+
         /*public void InsertaHoteles(HotelesXCiudad param)
         {
             try
