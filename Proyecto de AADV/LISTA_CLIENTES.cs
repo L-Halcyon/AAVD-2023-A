@@ -15,34 +15,40 @@ namespace Proyecto_de_AADV
         public LISTA_CLIENTES()
         {
             InitializeComponent();
-        }
+        }        
 
-        private void button1_Click(object sender, EventArgs e)
+
+
+        private void LISTA_CLIENTES_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void LC_VER_HISTORIAL_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario que deseas abrir
+            HISTORIAL_CLIENTE HistorialCliente = new HISTORIAL_CLIENTE();
+
+            // Mostrar el formulario
+            HistorialCliente.ShowDialog();
+        }
+
+        private void LC_BUSCAR_APELLIDO_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void mostrarHistorialToolStripMenuItem_Click(object sender, EventArgs e)
+        private void LC_BUSCAR_RFC_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void hacerUnaReservaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        private void LC_BUSCAR_CORREO_Click(object sender, EventArgs e)
         {
 
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void LISTA_CLIENTES_Load(object sender, EventArgs e)
         {
 
         }

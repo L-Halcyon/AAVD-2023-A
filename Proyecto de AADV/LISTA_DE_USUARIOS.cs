@@ -21,5 +21,19 @@ namespace Proyecto_de_AADV
         {
 
         }
+
+        private void LU_REGISTRAR_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario que deseas abrir
+            REGISTRAR_USUARIO RegistrarUsuario = new REGISTRAR_USUARIO();
+
+            // Mostrar el formulario
+            RegistrarUsuario.ShowDialog();
+        }
+
+        private void LU_ELIMINAR_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

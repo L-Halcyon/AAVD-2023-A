@@ -29,24 +29,24 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ubicacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hotelesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cancelacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MA_USUARIOS = new System.Windows.Forms.ToolStripMenuItem();
+            this.MA_UBICACIONES = new System.Windows.Forms.ToolStripMenuItem();
+            this.MA_HOTELES = new System.Windows.Forms.ToolStripMenuItem();
+            this.ME_CANCELACIONES = new System.Windows.Forms.ToolStripMenuItem();
             this.ocupaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MA_OCUPACION = new System.Windows.Forms.ToolStripMenuItem();
+            this.MA_VENTAS = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.ocupaciónToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clientesToolStripMenuItem,
-            this.ubicacionesToolStripMenuItem,
-            this.hotelesToolStripMenuItem,
-            this.cancelacionesToolStripMenuItem,
+            this.MA_USUARIOS,
+            this.MA_UBICACIONES,
+            this.MA_HOTELES,
+            this.ME_CANCELACIONES,
             this.ocupaciónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -54,40 +54,56 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // clientesToolStripMenuItem
+            // MA_USUARIOS
             // 
-            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.clientesToolStripMenuItem.Text = "Usuarios";
-            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
+            this.MA_USUARIOS.Name = "MA_USUARIOS";
+            this.MA_USUARIOS.Size = new System.Drawing.Size(64, 20);
+            this.MA_USUARIOS.Text = "Usuarios";
+            this.MA_USUARIOS.Click += new System.EventHandler(this.MA_USUARIOS_Click);
             // 
-            // ubicacionesToolStripMenuItem
+            // MA_UBICACIONES
             // 
-            this.ubicacionesToolStripMenuItem.Name = "ubicacionesToolStripMenuItem";
-            this.ubicacionesToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
-            this.ubicacionesToolStripMenuItem.Text = "Ubicaciones";
+            this.MA_UBICACIONES.Name = "MA_UBICACIONES";
+            this.MA_UBICACIONES.Size = new System.Drawing.Size(83, 20);
+            this.MA_UBICACIONES.Text = "Ubicaciones";
+            this.MA_UBICACIONES.Click += new System.EventHandler(this.MA_UBICACIONES_Click);
             // 
-            // hotelesToolStripMenuItem
+            // MA_HOTELES
             // 
-            this.hotelesToolStripMenuItem.Name = "hotelesToolStripMenuItem";
-            this.hotelesToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.hotelesToolStripMenuItem.Text = "Hoteles";
+            this.MA_HOTELES.Name = "MA_HOTELES";
+            this.MA_HOTELES.Size = new System.Drawing.Size(59, 20);
+            this.MA_HOTELES.Text = "Hoteles";
+            this.MA_HOTELES.Click += new System.EventHandler(this.MA_HOTELES_Click);
             // 
-            // cancelacionesToolStripMenuItem
+            // ME_CANCELACIONES
             // 
-            this.cancelacionesToolStripMenuItem.Name = "cancelacionesToolStripMenuItem";
-            this.cancelacionesToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
-            this.cancelacionesToolStripMenuItem.Text = "Cancelaciones";
+            this.ME_CANCELACIONES.Name = "ME_CANCELACIONES";
+            this.ME_CANCELACIONES.Size = new System.Drawing.Size(95, 20);
+            this.ME_CANCELACIONES.Text = "Cancelaciones";
+            this.ME_CANCELACIONES.Click += new System.EventHandler(this.ME_CANCELACIONES_Click);
             // 
             // ocupaciónToolStripMenuItem
             // 
             this.ocupaciónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ocupaciónToolStripMenuItem1,
-            this.ventasToolStripMenuItem});
+            this.MA_OCUPACION,
+            this.MA_VENTAS});
             this.ocupaciónToolStripMenuItem.Name = "ocupaciónToolStripMenuItem";
             this.ocupaciónToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.ocupaciónToolStripMenuItem.Text = "Reportes";
-            this.ocupaciónToolStripMenuItem.Click += new System.EventHandler(this.ocupaciónToolStripMenuItem_Click);
+            // 
+            // MA_OCUPACION
+            // 
+            this.MA_OCUPACION.Name = "MA_OCUPACION";
+            this.MA_OCUPACION.Size = new System.Drawing.Size(180, 22);
+            this.MA_OCUPACION.Text = "Ocupación";
+            this.MA_OCUPACION.Click += new System.EventHandler(this.MA_OCUPACION_Click);
+            // 
+            // MA_VENTAS
+            // 
+            this.MA_VENTAS.Name = "MA_VENTAS";
+            this.MA_VENTAS.Size = new System.Drawing.Size(180, 22);
+            this.MA_VENTAS.Text = "Ventas";
+            this.MA_VENTAS.Click += new System.EventHandler(this.MA_VENTAS_Click);
             // 
             // label1
             // 
@@ -98,19 +114,6 @@
             this.label1.Size = new System.Drawing.Size(283, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bienvenido, eliga una opción del menú.";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // ocupaciónToolStripMenuItem1
-            // 
-            this.ocupaciónToolStripMenuItem1.Name = "ocupaciónToolStripMenuItem1";
-            this.ocupaciónToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.ocupaciónToolStripMenuItem1.Text = "Ocupación";
-            // 
-            // ventasToolStripMenuItem
-            // 
-            this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ventasToolStripMenuItem.Text = "Ventas";
             // 
             // MENU_ADMIN
             // 
@@ -133,13 +136,13 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hotelesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ubicacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MA_USUARIOS;
+        private System.Windows.Forms.ToolStripMenuItem MA_HOTELES;
+        private System.Windows.Forms.ToolStripMenuItem MA_UBICACIONES;
         private System.Windows.Forms.ToolStripMenuItem ocupaciónToolStripMenuItem;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ToolStripMenuItem cancelacionesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ocupaciónToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem ventasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ME_CANCELACIONES;
+        private System.Windows.Forms.ToolStripMenuItem MA_OCUPACION;
+        private System.Windows.Forms.ToolStripMenuItem MA_VENTAS;
     }
 }

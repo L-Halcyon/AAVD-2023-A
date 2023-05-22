@@ -43,7 +43,7 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.RH_GUARDAR = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
@@ -122,7 +122,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(200, 214);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(181, 20);
             this.textBox2.TabIndex = 8;
@@ -130,7 +130,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(200, 180);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(181, 20);
             this.textBox3.TabIndex = 9;
@@ -138,7 +138,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(200, 147);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(181, 20);
             this.textBox4.TabIndex = 10;
@@ -146,7 +146,7 @@
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(200, 22);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(181, 20);
             this.textBox8.TabIndex = 14;
@@ -154,7 +154,7 @@
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(25, 310);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(2);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(356, 101);
@@ -163,7 +163,7 @@
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(200, 249);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(181, 20);
             this.textBox11.TabIndex = 17;
@@ -188,16 +188,16 @@
             this.label9.TabIndex = 26;
             this.label9.Text = "Descripción :";
             // 
-            // button1
+            // RH_GUARDAR
             // 
-            this.button1.Location = new System.Drawing.Point(323, 431);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 19);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.RH_GUARDAR.Location = new System.Drawing.Point(323, 431);
+            this.RH_GUARDAR.Margin = new System.Windows.Forms.Padding(2);
+            this.RH_GUARDAR.Name = "RH_GUARDAR";
+            this.RH_GUARDAR.Size = new System.Drawing.Size(56, 19);
+            this.RH_GUARDAR.TabIndex = 27;
+            this.RH_GUARDAR.Text = "Guardar";
+            this.RH_GUARDAR.UseVisualStyleBackColor = true;
+            this.RH_GUARDAR.Click += new System.EventHandler(this.button1_Click);
             // 
             // comboBox1
             // 
@@ -231,7 +231,7 @@
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.RH_GUARDAR);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox11);
@@ -247,7 +247,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "REGISTRAR_HOTEL";
             this.Text = "Registar hotel";
             this.ResumeLayout(false);
@@ -272,7 +272,7 @@
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button RH_GUARDAR;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;

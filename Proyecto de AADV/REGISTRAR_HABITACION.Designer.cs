@@ -32,7 +32,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.RHAB_REGISTRAR_HABITACION = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -82,15 +82,15 @@
             this.textBox2.Size = new System.Drawing.Size(585, 116);
             this.textBox2.TabIndex = 7;
             // 
-            // button1
+            // RHAB_REGISTRAR_HABITACION
             // 
-            this.button1.Location = new System.Drawing.Point(491, 324);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 19);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Registrar habitación";
-            this.button1.UseVisualStyleBackColor = true;
+            this.RHAB_REGISTRAR_HABITACION.Location = new System.Drawing.Point(491, 324);
+            this.RHAB_REGISTRAR_HABITACION.Margin = new System.Windows.Forms.Padding(2);
+            this.RHAB_REGISTRAR_HABITACION.Name = "RHAB_REGISTRAR_HABITACION";
+            this.RHAB_REGISTRAR_HABITACION.Size = new System.Drawing.Size(117, 19);
+            this.RHAB_REGISTRAR_HABITACION.TabIndex = 8;
+            this.RHAB_REGISTRAR_HABITACION.Text = "Registrar habitación";
+            this.RHAB_REGISTRAR_HABITACION.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -199,7 +199,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.RHAB_REGISTRAR_HABITACION);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
@@ -219,7 +219,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button RHAB_REGISTRAR_HABITACION;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;

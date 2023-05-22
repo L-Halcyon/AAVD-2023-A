@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reservacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MU_CLIENTES = new System.Windows.Forms.ToolStripMenuItem();
+            this.MU_RESERVACIONES = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -38,25 +38,27 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clientesToolStripMenuItem,
-            this.reservacionesToolStripMenuItem});
+            this.MU_CLIENTES,
+            this.MU_RESERVACIONES});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // clientesToolStripMenuItem
+            // MU_CLIENTES
             // 
-            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.clientesToolStripMenuItem.Text = "Clientes";
+            this.MU_CLIENTES.Name = "MU_CLIENTES";
+            this.MU_CLIENTES.Size = new System.Drawing.Size(61, 20);
+            this.MU_CLIENTES.Text = "Clientes";
+            this.MU_CLIENTES.Click += new System.EventHandler(this.MU_CLIENTES_Click);
             // 
-            // reservacionesToolStripMenuItem
+            // MU_RESERVACIONES
             // 
-            this.reservacionesToolStripMenuItem.Name = "reservacionesToolStripMenuItem";
-            this.reservacionesToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
-            this.reservacionesToolStripMenuItem.Text = "Reservaciones";
+            this.MU_RESERVACIONES.Name = "MU_RESERVACIONES";
+            this.MU_RESERVACIONES.Size = new System.Drawing.Size(93, 20);
+            this.MU_RESERVACIONES.Text = "Reservaciones";
+            this.MU_RESERVACIONES.Click += new System.EventHandler(this.MU_RESERVACIONES_Click);
             // 
             // label1
             // 
@@ -78,6 +80,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MENU_USUARIO";
             this.Text = "Menú Usuario";
+            this.Load += new System.EventHandler(this.MENU_USUARIO_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -88,8 +91,8 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reservacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MU_CLIENTES;
+        private System.Windows.Forms.ToolStripMenuItem MU_RESERVACIONES;
         private System.Windows.Forms.Label label1;
     }
 }

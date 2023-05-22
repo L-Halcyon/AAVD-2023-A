@@ -54,3 +54,32 @@ C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV\Proyecto de AADV\o
 C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV\Proyecto de AADV\obj\Debug\Proyecto de AADV.csproj.CoreCompileInputs.cache
 C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV\Proyecto de AADV\obj\Debug\Proyecto de AADV.exe
 C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV\Proyecto de AADV\obj\Debug\Proyecto de AADV.pdb
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Proyecto de AADV.exe.config
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Proyecto de AADV.exe
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Proyecto de AADV.pdb
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto de AADV.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto de AADV.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.CANCELACIONES.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.CHECK_IN.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.CHECK_OUT.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.MENU_ADMIN.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.LISTA_CLIENTES.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.HISTORIAL_CLIENTE.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.LISTA_HOTELES.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.LISTA_RESERVACIONES.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.MENU_USUARIO.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.REGISTRAR_CLIENTE.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.INICIO_SESION.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.Properties.Resources.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.REGISTRAR_USUARIO.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.REGISTRAR_C_P_E.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.REGISTRAR_HABITACION.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.REGISTRAR_HOTEL.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.REPORTE_VENTAS.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.RESERVACIÓN.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.LISTA_DE_USUARIOS.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto de AADV.csproj.GenerateResource.cache
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto de AADV.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto de AADV.exe
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto de AADV.pdb
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.REPORTE_OCUPACION_HOTEL.resources

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.cancelar_reservación = new System.Windows.Forms.Button();
+            this.C_CANCELAR = new System.Windows.Forms.Button();
             this.codigo = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Hotel = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -50,20 +50,20 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Codigo de reservación :";
             // 
-            // cancelar_reservación
+            // C_CANCELAR
             // 
-            this.cancelar_reservación.Location = new System.Drawing.Point(375, 27);
-            this.cancelar_reservación.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.cancelar_reservación.Name = "cancelar_reservación";
-            this.cancelar_reservación.Size = new System.Drawing.Size(56, 19);
-            this.cancelar_reservación.TabIndex = 3;
-            this.cancelar_reservación.Text = "Cancelar";
-            this.cancelar_reservación.UseVisualStyleBackColor = true;
+            this.C_CANCELAR.Location = new System.Drawing.Point(375, 27);
+            this.C_CANCELAR.Margin = new System.Windows.Forms.Padding(2);
+            this.C_CANCELAR.Name = "C_CANCELAR";
+            this.C_CANCELAR.Size = new System.Drawing.Size(68, 19);
+            this.C_CANCELAR.TabIndex = 3;
+            this.C_CANCELAR.Text = "Cancelar";
+            this.C_CANCELAR.UseVisualStyleBackColor = true;
             // 
             // codigo
             // 
             this.codigo.Location = new System.Drawing.Point(150, 26);
-            this.codigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.codigo.Margin = new System.Windows.Forms.Padding(2);
             this.codigo.Name = "codigo";
             this.codigo.Size = new System.Drawing.Size(182, 20);
             this.codigo.TabIndex = 4;
@@ -114,9 +114,9 @@
             this.ClientSize = new System.Drawing.Size(568, 589);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.codigo);
-            this.Controls.Add(this.cancelar_reservación);
+            this.Controls.Add(this.C_CANCELAR);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CANCELACIONES";
             this.Text = "Cancelar reservación";
             this.Load += new System.EventHandler(this.CANCELACIONES_Load);
@@ -128,7 +128,7 @@
 
         #endregion
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button cancelar_reservación;
+        private System.Windows.Forms.Button C_CANCELAR;
         private System.Windows.Forms.TextBox codigo;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Hotel;

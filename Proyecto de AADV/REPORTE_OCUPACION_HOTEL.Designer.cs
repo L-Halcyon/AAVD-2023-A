@@ -35,7 +35,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.ROH_BUSCAR = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -110,7 +110,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(90, 43);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(188, 20);
             this.textBox1.TabIndex = 5;
@@ -118,20 +118,21 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(90, 76);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(188, 20);
             this.textBox4.TabIndex = 8;
             // 
-            // button2
+            // ROH_BUSCAR
             // 
-            this.button2.Location = new System.Drawing.Point(655, 63);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(56, 19);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Buscar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.ROH_BUSCAR.Location = new System.Drawing.Point(655, 63);
+            this.ROH_BUSCAR.Margin = new System.Windows.Forms.Padding(2);
+            this.ROH_BUSCAR.Name = "ROH_BUSCAR";
+            this.ROH_BUSCAR.Size = new System.Drawing.Size(56, 19);
+            this.ROH_BUSCAR.TabIndex = 12;
+            this.ROH_BUSCAR.Text = "Buscar";
+            this.ROH_BUSCAR.UseVisualStyleBackColor = true;
+            this.ROH_BUSCAR.Click += new System.EventHandler(this.ROH_BUSCAR_Click);
             // 
             // dataGridView1
             // 
@@ -145,7 +146,7 @@
             this.Column6,
             this.Column7});
             this.dataGridView1.Location = new System.Drawing.Point(22, 113);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -204,7 +205,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(426, 78);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(188, 20);
             this.textBox2.TabIndex = 15;
@@ -212,7 +213,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(426, 46);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(188, 20);
             this.textBox3.TabIndex = 14;
@@ -236,7 +237,7 @@
             this.Column10,
             this.Column11});
             this.dataGridView2.Location = new System.Drawing.Point(22, 443);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
@@ -281,7 +282,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.ROH_BUSCAR);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
@@ -289,7 +290,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "REPORTE_OCUPACION_HOTEL";
             this.Text = "Reporte de ocupación por hotel";
             this.Load += new System.EventHandler(this.REPORTE_OCUPACION_HOTEL_Load);
@@ -309,7 +310,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button ROH_BUSCAR;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;

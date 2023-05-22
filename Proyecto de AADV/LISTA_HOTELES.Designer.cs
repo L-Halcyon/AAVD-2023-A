@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.registrar_hotel = new System.Windows.Forms.Button();
-            this.registrar_habitacion = new System.Windows.Forms.Button();
+            this.LH_REGISTRAR_HOTEL = new System.Windows.Forms.Button();
+            this.LH_REGISTRAR_HABITACION = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,26 +44,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // registrar_hotel
+            // LH_REGISTRAR_HOTEL
             // 
-            this.registrar_hotel.Location = new System.Drawing.Point(33, 26);
-            this.registrar_hotel.Margin = new System.Windows.Forms.Padding(2);
-            this.registrar_hotel.Name = "registrar_hotel";
-            this.registrar_hotel.Size = new System.Drawing.Size(134, 19);
-            this.registrar_hotel.TabIndex = 9;
-            this.registrar_hotel.Text = "Registrar hotel";
-            this.registrar_hotel.UseVisualStyleBackColor = true;
+            this.LH_REGISTRAR_HOTEL.Location = new System.Drawing.Point(33, 26);
+            this.LH_REGISTRAR_HOTEL.Margin = new System.Windows.Forms.Padding(2);
+            this.LH_REGISTRAR_HOTEL.Name = "LH_REGISTRAR_HOTEL";
+            this.LH_REGISTRAR_HOTEL.Size = new System.Drawing.Size(134, 19);
+            this.LH_REGISTRAR_HOTEL.TabIndex = 9;
+            this.LH_REGISTRAR_HOTEL.Text = "Registrar hotel";
+            this.LH_REGISTRAR_HOTEL.UseVisualStyleBackColor = true;
+            this.LH_REGISTRAR_HOTEL.Click += new System.EventHandler(this.LH_REGISTRAR_HOTEL_Click);
             // 
-            // registrar_habitacion
+            // LH_REGISTRAR_HABITACION
             // 
-            this.registrar_habitacion.Enabled = false;
-            this.registrar_habitacion.Location = new System.Drawing.Point(228, 26);
-            this.registrar_habitacion.Margin = new System.Windows.Forms.Padding(2);
-            this.registrar_habitacion.Name = "registrar_habitacion";
-            this.registrar_habitacion.Size = new System.Drawing.Size(134, 19);
-            this.registrar_habitacion.TabIndex = 10;
-            this.registrar_habitacion.Text = "Registrar habitación";
-            this.registrar_habitacion.UseVisualStyleBackColor = true;
+            this.LH_REGISTRAR_HABITACION.Enabled = false;
+            this.LH_REGISTRAR_HABITACION.Location = new System.Drawing.Point(228, 26);
+            this.LH_REGISTRAR_HABITACION.Margin = new System.Windows.Forms.Padding(2);
+            this.LH_REGISTRAR_HABITACION.Name = "LH_REGISTRAR_HABITACION";
+            this.LH_REGISTRAR_HABITACION.Size = new System.Drawing.Size(134, 19);
+            this.LH_REGISTRAR_HABITACION.TabIndex = 10;
+            this.LH_REGISTRAR_HABITACION.Text = "Registrar habitación";
+            this.LH_REGISTRAR_HABITACION.UseVisualStyleBackColor = true;
+            this.LH_REGISTRAR_HABITACION.Click += new System.EventHandler(this.LH_REGISTRAR_HABITACION_Click);
             // 
             // dataGridView1
             // 
@@ -140,8 +142,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1072, 543);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.registrar_habitacion);
-            this.Controls.Add(this.registrar_hotel);
+            this.Controls.Add(this.LH_REGISTRAR_HABITACION);
+            this.Controls.Add(this.LH_REGISTRAR_HOTEL);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LISTA_HOTELES";
             this.Text = "Lista de hoteles";
@@ -152,8 +154,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button registrar_hotel;
-        private System.Windows.Forms.Button registrar_habitacion;
+        private System.Windows.Forms.Button LH_REGISTRAR_HOTEL;
+        private System.Windows.Forms.Button LH_REGISTRAR_HABITACION;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;

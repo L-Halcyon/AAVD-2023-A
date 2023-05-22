@@ -39,12 +39,13 @@
             // ingresar
             // 
             this.ingresar.Location = new System.Drawing.Point(238, 170);
-            this.ingresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ingresar.Margin = new System.Windows.Forms.Padding(2);
             this.ingresar.Name = "ingresar";
             this.ingresar.Size = new System.Drawing.Size(73, 34);
             this.ingresar.TabIndex = 0;
             this.ingresar.Text = "Ingresar";
             this.ingresar.UseVisualStyleBackColor = true;
+            this.ingresar.Click += new System.EventHandler(this.ingresar_Click);
             // 
             // label1
             // 
@@ -69,7 +70,7 @@
             // correo
             // 
             this.correo.Location = new System.Drawing.Point(161, 59);
-            this.correo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.correo.Margin = new System.Windows.Forms.Padding(2);
             this.correo.Name = "correo";
             this.correo.Size = new System.Drawing.Size(310, 20);
             this.correo.TabIndex = 3;
@@ -77,7 +78,7 @@
             // contrasena
             // 
             this.contrasena.Location = new System.Drawing.Point(161, 99);
-            this.contrasena.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.contrasena.Margin = new System.Windows.Forms.Padding(2);
             this.contrasena.Name = "contrasena";
             this.contrasena.Size = new System.Drawing.Size(310, 20);
             this.contrasena.TabIndex = 4;
@@ -104,9 +105,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ingresar);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "INICIO_SESION";
             this.Text = "Inicio de sesión";
+            this.Load += new System.EventHandler(this.INICIO_SESION_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -26,5 +26,10 @@ namespace Proyecto_de_AADV
         {
 
         }
+
+        private void ROH_BUSCAR_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

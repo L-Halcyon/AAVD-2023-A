@@ -30,11 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registrarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buscar_cliente_apellido = new System.Windows.Forms.Button();
-            this.buscar__cliente_rfc = new System.Windows.Forms.Button();
+            this.LC_BUSCAR_APELLIDO = new System.Windows.Forms.Button();
+            this.LC_BUSCAR_RFC = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.buscar_cliente_correo = new System.Windows.Forms.Button();
+            this.LC_BUSCAR_CORREO = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.buscar_rfc = new System.Windows.Forms.TextBox();
             this.buscar_apellido = new System.Windows.Forms.TextBox();
@@ -51,7 +51,7 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
+            this.LC_VER_HISTORIAL = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -74,25 +74,27 @@
             this.registrarClienteToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
             this.registrarClienteToolStripMenuItem.Text = "Registrar cliente";
             // 
-            // buscar_cliente_apellido
+            // LC_BUSCAR_APELLIDO
             // 
-            this.buscar_cliente_apellido.Location = new System.Drawing.Point(364, 34);
-            this.buscar_cliente_apellido.Margin = new System.Windows.Forms.Padding(2);
-            this.buscar_cliente_apellido.Name = "buscar_cliente_apellido";
-            this.buscar_cliente_apellido.Size = new System.Drawing.Size(56, 19);
-            this.buscar_cliente_apellido.TabIndex = 4;
-            this.buscar_cliente_apellido.Text = "Buscar";
-            this.buscar_cliente_apellido.UseVisualStyleBackColor = true;
+            this.LC_BUSCAR_APELLIDO.Location = new System.Drawing.Point(364, 34);
+            this.LC_BUSCAR_APELLIDO.Margin = new System.Windows.Forms.Padding(2);
+            this.LC_BUSCAR_APELLIDO.Name = "LC_BUSCAR_APELLIDO";
+            this.LC_BUSCAR_APELLIDO.Size = new System.Drawing.Size(56, 19);
+            this.LC_BUSCAR_APELLIDO.TabIndex = 4;
+            this.LC_BUSCAR_APELLIDO.Text = "Buscar";
+            this.LC_BUSCAR_APELLIDO.UseVisualStyleBackColor = true;
+            this.LC_BUSCAR_APELLIDO.Click += new System.EventHandler(this.LC_BUSCAR_APELLIDO_Click);
             // 
-            // buscar__cliente_rfc
+            // LC_BUSCAR_RFC
             // 
-            this.buscar__cliente_rfc.Location = new System.Drawing.Point(364, 77);
-            this.buscar__cliente_rfc.Margin = new System.Windows.Forms.Padding(2);
-            this.buscar__cliente_rfc.Name = "buscar__cliente_rfc";
-            this.buscar__cliente_rfc.Size = new System.Drawing.Size(56, 19);
-            this.buscar__cliente_rfc.TabIndex = 5;
-            this.buscar__cliente_rfc.Text = "Buscar";
-            this.buscar__cliente_rfc.UseVisualStyleBackColor = true;
+            this.LC_BUSCAR_RFC.Location = new System.Drawing.Point(364, 77);
+            this.LC_BUSCAR_RFC.Margin = new System.Windows.Forms.Padding(2);
+            this.LC_BUSCAR_RFC.Name = "LC_BUSCAR_RFC";
+            this.LC_BUSCAR_RFC.Size = new System.Drawing.Size(56, 19);
+            this.LC_BUSCAR_RFC.TabIndex = 5;
+            this.LC_BUSCAR_RFC.Text = "Buscar";
+            this.LC_BUSCAR_RFC.UseVisualStyleBackColor = true;
+            this.LC_BUSCAR_RFC.Click += new System.EventHandler(this.LC_BUSCAR_RFC_Click);
             // 
             // label1
             // 
@@ -103,7 +105,6 @@
             this.label1.Size = new System.Drawing.Size(103, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Buscar por apellido :";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -115,15 +116,16 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "Buscar por RFC :";
             // 
-            // buscar_cliente_correo
+            // LC_BUSCAR_CORREO
             // 
-            this.buscar_cliente_correo.Location = new System.Drawing.Point(364, 120);
-            this.buscar_cliente_correo.Margin = new System.Windows.Forms.Padding(2);
-            this.buscar_cliente_correo.Name = "buscar_cliente_correo";
-            this.buscar_cliente_correo.Size = new System.Drawing.Size(56, 19);
-            this.buscar_cliente_correo.TabIndex = 8;
-            this.buscar_cliente_correo.Text = "Buscar";
-            this.buscar_cliente_correo.UseVisualStyleBackColor = true;
+            this.LC_BUSCAR_CORREO.Location = new System.Drawing.Point(364, 120);
+            this.LC_BUSCAR_CORREO.Margin = new System.Windows.Forms.Padding(2);
+            this.LC_BUSCAR_CORREO.Name = "LC_BUSCAR_CORREO";
+            this.LC_BUSCAR_CORREO.Size = new System.Drawing.Size(56, 19);
+            this.LC_BUSCAR_CORREO.TabIndex = 8;
+            this.LC_BUSCAR_CORREO.Text = "Buscar";
+            this.LC_BUSCAR_CORREO.UseVisualStyleBackColor = true;
+            this.LC_BUSCAR_CORREO.Click += new System.EventHandler(this.LC_BUSCAR_CORREO_Click);
             // 
             // label3
             // 
@@ -235,31 +237,32 @@
             this.Column9.HeaderText = "Estado civil";
             this.Column9.Name = "Column9";
             // 
-            // button1
+            // LC_VER_HISTORIAL
             // 
-            this.button1.Location = new System.Drawing.Point(948, 68);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 39);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Ver Hisorial";
-            this.button1.UseVisualStyleBackColor = true;
+            this.LC_VER_HISTORIAL.Location = new System.Drawing.Point(948, 68);
+            this.LC_VER_HISTORIAL.Name = "LC_VER_HISTORIAL";
+            this.LC_VER_HISTORIAL.Size = new System.Drawing.Size(76, 39);
+            this.LC_VER_HISTORIAL.TabIndex = 14;
+            this.LC_VER_HISTORIAL.Text = "Ver Hisorial";
+            this.LC_VER_HISTORIAL.UseVisualStyleBackColor = true;
+            this.LC_VER_HISTORIAL.Click += new System.EventHandler(this.LC_VER_HISTORIAL_Click);
             // 
             // LISTA_CLIENTES
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1082, 666);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.LC_VER_HISTORIAL);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buscar_correo);
             this.Controls.Add(this.buscar_apellido);
             this.Controls.Add(this.buscar_rfc);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.buscar_cliente_correo);
+            this.Controls.Add(this.LC_BUSCAR_CORREO);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.buscar__cliente_rfc);
-            this.Controls.Add(this.buscar_cliente_apellido);
+            this.Controls.Add(this.LC_BUSCAR_RFC);
+            this.Controls.Add(this.LC_BUSCAR_APELLIDO);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -276,11 +279,11 @@
 
         #endregion
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.Button buscar_cliente_apellido;
-        private System.Windows.Forms.Button buscar__cliente_rfc;
+        private System.Windows.Forms.Button LC_BUSCAR_APELLIDO;
+        private System.Windows.Forms.Button LC_BUSCAR_RFC;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button buscar_cliente_correo;
+        private System.Windows.Forms.Button LC_BUSCAR_CORREO;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox buscar_rfc;
         private System.Windows.Forms.TextBox buscar_apellido;
@@ -298,6 +301,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button LC_VER_HISTORIAL;
     }
 }

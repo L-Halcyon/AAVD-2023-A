@@ -16,5 +16,33 @@ namespace Proyecto_de_AADV
         {
             InitializeComponent();
         }
+
+        private void INICIO_SESION_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ingresar_Click(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                // Si el CheckBox está marcado, crea una instancia del formulario A y muéstralo
+                // Crear una instancia del formulario que deseas abrir
+                MENU_ADMIN MenuAdmin = new MENU_ADMIN();
+
+                // Mostrar el formulario
+                MenuAdmin.ShowDialog();
+            }
+            else
+            {
+                // Si el CheckBox no está marcado, crea una instancia del formulario B y muéstralo
+                // Crear una instancia del formulario que deseas abrir
+                MENU_USUARIO MenuUsuario = new MENU_USUARIO();
+
+                // Mostrar el formulario
+                MenuUsuario.ShowDialog();            
+            }
+            //this.Close();
+        }
     }
 }

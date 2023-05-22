@@ -16,5 +16,23 @@ namespace Proyecto_de_AADV
         {
             InitializeComponent();
         }
+
+        private void LH_REGISTRAR_HOTEL_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario que deseas abrir
+            REGISTRAR_HOTEL RegistrarHotel = new REGISTRAR_HOTEL();
+
+            // Mostrar el formulario
+            RegistrarHotel.ShowDialog();
+        }
+
+        private void LH_REGISTRAR_HABITACION_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario que deseas abrir
+            REGISTRAR_HABITACION RegistrarHabitacion = new REGISTRAR_HABITACION();
+
+            // Mostrar el formulario
+            RegistrarHabitacion.ShowDialog();
+        }
     }
 }
