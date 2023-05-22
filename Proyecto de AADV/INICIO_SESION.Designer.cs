@@ -31,8 +31,8 @@
             this.ingresar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.correo = new System.Windows.Forms.TextBox();
-            this.contrasena = new System.Windows.Forms.TextBox();
+            this.IS_TBX_CORREO = new System.Windows.Forms.TextBox();
+            this.IS_TBX_CONTRASEÑA = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
@@ -67,21 +67,21 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Contraseña :";
             // 
-            // correo
+            // IS_TBX_CORREO
             // 
-            this.correo.Location = new System.Drawing.Point(161, 59);
-            this.correo.Margin = new System.Windows.Forms.Padding(2);
-            this.correo.Name = "correo";
-            this.correo.Size = new System.Drawing.Size(310, 20);
-            this.correo.TabIndex = 3;
+            this.IS_TBX_CORREO.Location = new System.Drawing.Point(161, 59);
+            this.IS_TBX_CORREO.Margin = new System.Windows.Forms.Padding(2);
+            this.IS_TBX_CORREO.Name = "IS_TBX_CORREO";
+            this.IS_TBX_CORREO.Size = new System.Drawing.Size(310, 20);
+            this.IS_TBX_CORREO.TabIndex = 3;
             // 
-            // contrasena
+            // IS_TBX_CONTRASEÑA
             // 
-            this.contrasena.Location = new System.Drawing.Point(161, 99);
-            this.contrasena.Margin = new System.Windows.Forms.Padding(2);
-            this.contrasena.Name = "contrasena";
-            this.contrasena.Size = new System.Drawing.Size(310, 20);
-            this.contrasena.TabIndex = 4;
+            this.IS_TBX_CONTRASEÑA.Location = new System.Drawing.Point(161, 99);
+            this.IS_TBX_CONTRASEÑA.Margin = new System.Windows.Forms.Padding(2);
+            this.IS_TBX_CONTRASEÑA.Name = "IS_TBX_CONTRASEÑA";
+            this.IS_TBX_CONTRASEÑA.Size = new System.Drawing.Size(310, 20);
+            this.IS_TBX_CONTRASEÑA.TabIndex = 4;
             // 
             // checkBox1
             // 
@@ -99,8 +99,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(545, 242);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.contrasena);
-            this.Controls.Add(this.correo);
+            this.Controls.Add(this.IS_TBX_CONTRASEÑA);
+            this.Controls.Add(this.IS_TBX_CORREO);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ingresar);
@@ -120,8 +120,8 @@
         private System.Windows.Forms.Button ingresar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox correo;
-        private System.Windows.Forms.TextBox contrasena;
+        private System.Windows.Forms.TextBox IS_TBX_CORREO;
+        private System.Windows.Forms.TextBox IS_TBX_CONTRASEÑA;
         private System.Windows.Forms.CheckBox checkBox1;
     }
 }
