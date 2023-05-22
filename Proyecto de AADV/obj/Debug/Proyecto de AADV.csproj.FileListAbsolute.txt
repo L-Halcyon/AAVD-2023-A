@@ -83,3 +83,26 @@ C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto 
 C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto de AADV.exe
 C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto de AADV.pdb
 C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto_de_AADV.REPORTE_OCUPACION_HOTEL.resources
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Cassandra.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Buffers.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Memory.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Cassandra.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Buffers.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Memory.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\pc\Documents\UANL\6to Semestre\AAVD\Proyecto de AADV 2023 1.2\Proyecto de AADV\obj\Debug\Proyecto de AADV.csproj.CopyComplete

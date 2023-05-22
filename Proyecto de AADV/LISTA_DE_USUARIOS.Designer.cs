@@ -172,6 +172,7 @@
             this.Controls.Add(this.LU_REGISTRAR);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LISTA_DE_USUARIOS";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de usuarios";
             this.Load += new System.EventHandler(this.USUARIOS_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

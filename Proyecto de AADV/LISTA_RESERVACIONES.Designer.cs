@@ -152,6 +152,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LISTA_RESERVACIONES";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LISTA_RESERVACIONES";
             this.Load += new System.EventHandler(this.LISTA_RESERVACIONES_Load);
             this.menuStrip1.ResumeLayout(false);

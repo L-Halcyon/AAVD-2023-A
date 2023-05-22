@@ -146,6 +146,7 @@
             this.Controls.Add(this.LH_REGISTRAR_HOTEL);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LISTA_HOTELES";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de hoteles";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

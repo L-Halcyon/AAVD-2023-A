@@ -107,6 +107,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "REGISTRAR_C_P_E";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro de ciudad, estado o país";
             this.ResumeLayout(false);
             this.PerformLayout();

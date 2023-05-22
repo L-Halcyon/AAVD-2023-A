@@ -249,6 +249,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "REGISTRAR_HOTEL";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registar hotel";
             this.ResumeLayout(false);
             this.PerformLayout();

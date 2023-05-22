@@ -292,6 +292,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "REPORTE_OCUPACION_HOTEL";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reporte de ocupación por hotel";
             this.Load += new System.EventHandler(this.REPORTE_OCUPACION_HOTEL_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

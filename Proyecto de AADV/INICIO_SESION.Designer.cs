@@ -107,6 +107,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "INICIO_SESION";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio de sesión";
             this.Load += new System.EventHandler(this.INICIO_SESION_Load);
             this.ResumeLayout(false);

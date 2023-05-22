@@ -206,6 +206,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "REGISTRAR_HABITACION";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registar habitación";
             this.Load += new System.EventHandler(this.REGISTRAR_HABITACION_Load);
             this.ResumeLayout(false);

@@ -252,6 +252,7 @@
             this.Controls.Add(this.monthCalendar1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "RESERVACIÓN";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reservar habiración";
             this.Load += new System.EventHandler(this.RESERVACIÓN_Load);
             this.ResumeLayout(false);
